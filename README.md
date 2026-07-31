@@ -47,7 +47,7 @@ O que é necessário para rodar seus códigos?
 * Arduino ID
 * Python
 * Bibliotecas Arduino:
-    * `[Nome da biblioteca e link para instalação]`
+    * ...
 * Bibliotecas Python:
 
 ### Instalação
