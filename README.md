@@ -1,6 +1,6 @@
 # Monitoramento-LoRa
 
-# Projeto LoRa: [Telemetria de baixo custo]
+# Projeto LoRa: Telemetria de baixo custo para monitoramento ambiental
 
 ## 📜 Descrição do Projeto
 
