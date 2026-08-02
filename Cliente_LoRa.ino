@@ -41,7 +41,7 @@ void loop() {
   // O código continua daqui quando o Arduino acorda
   Serial.println("\nArduino acordou! Verificando mensagem...");
 
-  // Uma pequena pausa para garantir que o buffer serial do LoRa esteja pronto
+  // Uma pequena pausa para garantir que o buffer do LoRa esteja pronto
   delay(50);
 
   // Verifica se há dados disponíveis no módulo LoRa
@@ -54,7 +54,6 @@ void loop() {
       Serial.println(jsonData);
 
       // Tenta encaminhar o pacote recebido para o Raspberry Pi
-      // Endereço do RPi: 0, Canal: 5, ADDH=0, ADDL=0x04 (ajuste conforme necessário)
       Serial.println("Encaminhando pacote para o Gateway Raspberry Pi...");
       ResponseStatus rs = e32ttl.sendFixedMessage(0, 5, 0x04, jsonData);
 
