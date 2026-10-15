@@ -35,12 +35,9 @@ Você pode acessar o material deste projeto através dos links abaixo:
 
 ## 🛠️ Tecnologias e Hardware
 
-* **Linguagem:** Python, C++ (Arduino)
-* **Bibliotecas:** [Nome da biblioteca LoRa usada, ex: RadioHead, LoRaLib]
+* **Linguagem:** Python, C/C++ (Arduino)
+* **Bibliotecas:**
 * **Hardware:**
-    * [Modelo do microcontrolador, ex: ESP32, Arduino Uno]
-    * [Módulo LoRa, ex: SX1276, RFM95W]
-    * [Sensores utilizados, ex: DHT11, BME280]
 
 ---
 
@@ -55,7 +52,6 @@ O que é necessário para rodar seus códigos?
 * Arduino ID
 * Python
 * Bibliotecas Arduino:
-    * ...
 * Bibliotecas Python:
 
 ### Instalação
