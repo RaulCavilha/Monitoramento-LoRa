@@ -16,6 +16,14 @@ Estação Intermediária (Gateway LoRa): Atua como uma ponte, requisitando os da
 Estação Central (Servidor): Recebe os dados, realiza o tratamento e os disponibiliza online. Esta estação é implementada com um Raspberry Pi 4, que se conecta a um módulo LoRa para receber os dados e os publica em um broker MQTT (como o HiveMQ) em formato JSON.
 
 ---
+## 📚 Artigo Científico
+
+Você pode acessar o material deste projeto através dos links abaixo:
+
+* 📄 [Baixar o Artigo em PDF](./XXVI-SBRH1201-1-20250624-214137.pdf)
+* 🌐 [Acessar a publicação original](https://anais.abrhidro.org.br/job.php?Job=18353)
+
+---
 
 ## ✨ Funcionalidades
 
