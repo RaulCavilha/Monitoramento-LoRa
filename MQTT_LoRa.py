@@ -8,7 +8,7 @@ import sys
 # Porta serial à qual o módulo LoRa está conectado
 # No Raspberry Pi 4, geralmente é '/dev/ttyS0' ou '/dev/serial0'
 SERIAL_PORT = '/dev/ttyS0' 
-BAUD_RATE = 9600  # Deve ser a mesma configurada no seu módulo LoRa/Arduino
+BAUD_RATE = 9600  # Deve ser a mesma configurada no módulo LoRa/Arduino
 
 # Configurações do Broker MQTT (usando o broker público da HiveMQ)
 MQTT_BROKER = 'broker.hivemq.com'
@@ -104,7 +104,7 @@ if __name__ == '__main__':
                     except json.JSONDecodeError:
                         print("(!) Erro: A mensagem recebida não é um JSON válido.")
 
-            # Pequena pausa para não sobrecarregar a CPU
+            # Pequena pausa para não sobrecarregar
             time.sleep(0.1)
 
     except KeyboardInterrupt:
